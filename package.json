@@ -1,0 +1,33 @@
+{
+  "name": "hyperapp-webpack",
+  "homepage": "https://github.com/KingZee/hyperapp-webpack",
+  "version": "1.0.0",
+  "description": "Minimalist hyperapp + webpack boilerplate",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "hyperapp": "*",
+    "webpack": "^4.30.0"
+  },
+  "scripts": {
+    "test": "exit 1",
+    "start:dev": "webpack-dev-server",
+    "build": "webpack -p"
+  },
+  "keywords": [
+    "hyperapp","webpack"
+  ],
+  "author": "KingZee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KingZee/hyperapp-webpack.git"
+},
+  "devDependencies": {
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
